@@ -91,6 +91,7 @@ small {
 }
 
 /* Nav */
+/*noinspection SyntaxError*/
 .tm-navbar {/*   padding: 19px 63px; */max-width: 840px;min-height: 120px;justify-content:;}
 
 .tm-navbar .navbar-nav {
@@ -272,6 +273,7 @@ small {
   background-color: white;
 }
 
+/*noinspection ALL*/
 .tm-call-to-action-col {
   display: flex;
   align-items: center;
