@@ -602,7 +602,7 @@ p {
 }
 
 .slick-dots li button {
-  font-family: initial;
+  font-family: inherit;
   font-size: 1.6em;
   font-weight: 900;
 }
