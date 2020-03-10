@@ -1,6 +1,6 @@
 /*
 
-Parallo Template
+This is a template
 
 https://templatemo.com/tm-534-parallo
 
@@ -92,7 +92,7 @@ small {
 
 /* Nav */
 /*noinspection SyntaxError*/
-.tm-navbar {/*   padding: 19px 63px; */max-width: 840px;min-height: 120px;justify-content:;}
+.tm-navbar {/*   padding: 19px 63px; */max-width: 840px;min-height: 120px;justify-content:center;}
 
 .tm-navbar .navbar-nav {
   width: 100%;
@@ -161,7 +161,7 @@ small {
   border-top-color: #006868;
 }
 
-.nav-item.active.green-highlight
+.nav-item.active.green-highlight,
 .tm-nav-link-highlight {
   background-color: #006868;
 }
@@ -280,7 +280,7 @@ small {
   max-width: 1230px;
   margin-left: auto;
   margin-right: auto;
-  flex-direction:;
+  flex-direction: inherit;
 }
 
 .tm-call-to-action-image {
@@ -315,9 +315,8 @@ p {
 
 .tm-email-input {
   padding: 15px;
-  margin: 0;
   width: 355px;
-  margin-right: 20px;
+  margin: 0 20px 0 0;
 }
 
 .btn-secondary {
@@ -375,7 +374,7 @@ p {
 .tm-about-title-hr {
   border-top-color: black;
   max-width: 450px;
-  margin-bottom:;
+  margin-bottom:20px;
 }
 
 .tm-bg-black-transparent {
@@ -517,7 +516,7 @@ p {
   text-align: left;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   background-color: rgba(15, 29, 32, 0.77);
   border: 1px solid rgba(15, 29, 32, 0.77);
   color: white;
@@ -603,7 +602,7 @@ p {
 }
 
 .slick-dots li button {
-  font-family: "Font Awesome 5 Free";
+  font-family: initial;
   font-size: 1.6em;
   font-weight: 900;
 }
